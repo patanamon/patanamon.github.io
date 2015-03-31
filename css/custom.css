@@ -123,7 +123,13 @@ border-color: #80233c;
 	a.custom-navbar-brand{
 		width: 280px;
 		padding-top: 5px;
+    font-size: 15pt;
 	} 
+  .navbar-nav {
+
+  margin-bottom: 0px;
+
+  }
 	.footer .container .text-muted {
   		margin: 10px 0;
   		font-size: 12px;
