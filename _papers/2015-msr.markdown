@@ -1,0 +1,10 @@
+---
+layout: paper
+date:   2015-03-30 00:00:00
+title:  "Investigating Code Review Practices in Defective Files: An Empirical Study of the Qt System"
+authors: "<u>Patanamon Thongtanunam</u>, Shane McIntosh, Ahmed E. Hassan, Hajimu Iida"
+venue: "12th Working Conference on Mining Software Repositories (MSR2015)"
+pubyear: 2015
+acceptance: "30% (32/106)"
+preprint: http://sail.cs.queensu.ca/publications/pubs/msr2015-thongtanunam.pdf
+---

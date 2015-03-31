@@ -7,13 +7,13 @@ layout: default
       <div class="col-md-3"><img src="assets/patanamon.png" style= "margin-top:20px" class="img-responsive img-circle"></div>
       <div class="col-md-9">  
         <h3>About me</h3>
-        <p>I am a Thai student pursuing a doctoral degree at Nara Institute of Science and Technology (NAIST), Japan. 
+        <p>I am a Thai student pursuing a doctoral degree at Software Design and Analysis Laboratory (SDLAB), Nara Institute of Science and Technology (NAIST), Japan. 
         I use empirical software engineering techniques to study software development process and software quality.
         Particularly, my Ph.D. thesis is focused on studying the important characteristics of modern code review practices and providing guidelines for practitioners to achieve high quality of software systems.</p>
-        <div class="pull-right" style="padding-right:20px;">
+        <div class="pull-right" style="padding-right:20px; bottom:0;">
+          <br/>
           <a href="http://jp.linkedin.com/pub/patanamon-thongtanunam/47/9b1/343" target="_blank"><img src="assets/linkedin.png"></a>
           <a href="https://twitter.com/pamon" target="_blank"><img src="assets/twitter.png"></a>
-          <a href="http://www.facebook.com/patanamon" target="_blank"><img src="assets/fb.png"></a>
           <a href="#" class="btn btn-primary btn-md" role="button">
             <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download my CV
           </a>
@@ -26,15 +26,18 @@ layout: default
 <div class="container">
   <div class="row">
     <div class="col-md-9" role="main">
-        <h2 id="publications" class="page-header">Publications</h2>
-        <div class="paper-list">
-          <div class="media">
-            <div class="media-body">
-              <h3 class="media-heading"><a href="#">Media heading</a></h3>
-               <label>Venue:</label>
-            </div>
-          </div>
-        </div>
+        <h3 id="publications" class="page-header">Publications</h3>
+        <ol class="paper-list">
+          {% for paper in site.papers %}
+          <li> 
+              <h4 class="media-heading"><a href="#">{{paper.title}}</a></h4>
+              <label>Authors:</label> {{paper.authors}} <br/>
+              <label>Venue:</label> {{paper.venue}} <br/>
+              <label>Acceptance Rate:</label> {{paper.acceptance}} <br/>
+              <label>Preprint:</label> <a href="{{paper.preprint}}">PDF</a>
+          </li> 
+          {% endfor %}
+        </ol>
     </div>
 
         

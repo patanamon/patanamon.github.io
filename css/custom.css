@@ -14,7 +14,7 @@ a{
   text-decoration: none;
 }
 .aboutme-wraper p{
-	font-size: 20px;
+	font-size: 18px;
   font-weight: 200 !important;
 }
 
@@ -121,8 +121,8 @@ border-color: #80233c;
 
 @media (max-width: 400px) { 
 	a.custom-navbar-brand{
-		width: 250px;
-		padding-top: 10px;
+		width: 280px;
+		padding-top: 5px;
 	} 
 	.footer .container .text-muted {
   		margin: 10px 0;
