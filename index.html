@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="aboutme-wraper" id="content" tabindex="-1">
+<div class="page-titile-wraper aboutme-wraper" id="content" tabindex="-1">
   <div class="container">
     <div class="row">
       <div class="col-md-3"><img src="assets/patanamon.png" style= "margin-top:20px" class="img-responsive img-circle"></div>
@@ -25,12 +25,12 @@ layout: default
 
 <div class="container">
   <div class="row">
-    <div class="col-md-9" role="main">
+    <div class="col-md-12" role="main">
         <h3 id="publications" class="page-header">Publications</h3>
         <ol class="paper-list">
-          {% for paper in site.papers %}
+          {% for paper in site.papers  reversed %}
           <li> 
-              <h4 class="media-heading"><a href="#">{{paper.title}}</a></h4>
+              <h4 class="media-heading"><a href="{{paper.url}}">{{paper.title}}</a></h4>
               <label>Authors:</label> {{paper.authors}} <br/>
               <label>Venue:</label> {{paper.venue}} <br/>
               <label>Acceptance Rate:</label> {{paper.acceptance}} <br/>
@@ -38,11 +38,6 @@ layout: default
           </li> 
           {% endfor %}
         </ol>
-    </div>
-
-        
-    <div class="col-md-3" role="complementary"> 
-      <div class="well">Hello</div>
     </div>
   </div>
 </div>

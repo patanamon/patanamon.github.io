@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<div class="page-titile-wraper" id="content" tabindex="-1">
+  <div class="container">
+    <div class="row">
+    	<div class="col-md-12">
+    	<p class="lead"><a href="/">Home</a> | Publications</p> 
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="paper-detail">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="page-header">{{page.title}}</h2>
+				<p><label>Authors:</label> {{page.authors}}</p>
+				<p><label>Venue:</label> {{page.venue}}</p>
+				<p><label>Abstract:</label></p>
+				<p>{{page.abstract}}</p>
+				{% if page.preprint %}
+			  	<p><label>Preprint:</label> <a href={{ page.preprint }}>PDF</a></p>
+			  	{% endif %}
+			  	{% if page.addition %}
+			  	{{ page.addition}}
+			  	{% endif %}
+				{% if page.slides %}
+				<p><label>Slides:</label></p>
+				<iframe src={{ page.slides }} width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"></div>
+				{% endif %}
+				<p><label>Bibtex</label></p>
+				{% highlight tex %}{{ page.content | strip_html }}{% endhighlight %}
+			</div>
+		</div>
+	</div>
+</div>
