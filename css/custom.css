@@ -116,20 +116,23 @@ border-color: #80233c;
 	.bs-docs-nav .navbar-toggle .icon-bar {
   		background-color: #9A334F;
 	}
+  .bs-docs-nav .navbar-header .navbar-toggle {
+    border-color: #9A334F;
+  }
+  .navbar-nav {
+
+  margin-bottom: 0px;
+
+  }
 
 }
-
 @media (max-width: 400px) { 
 	a.custom-navbar-brand{
 		width: 250px;
 		padding-top: 5px;
     font-size: 16pt;
 	} 
-  .navbar-nav {
 
-  margin-bottom: 0px;
-
-  }
 	.footer .container .text-muted {
   		margin: 10px 0;
   		font-size: 12px;
