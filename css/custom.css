@@ -122,12 +122,10 @@ border-color: #80233c;
 @media (max-width: 400px) { 
 	a.custom-navbar-brand{
 		width: 250px;
+		padding-top: 10px;
 	} 
 	.footer .container .text-muted {
   		margin: 10px 0;
   		font-size: 12px;
-	}
-	.nav-space{
-		height: 80px;
 	}
 }
