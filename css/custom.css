@@ -121,9 +121,9 @@ border-color: #80233c;
 
 @media (max-width: 400px) { 
 	a.custom-navbar-brand{
-		width: 280px;
+		width: 250px;
 		padding-top: 5px;
-    font-size: 15pt;
+    font-size: 16pt;
 	} 
   .navbar-nav {
 
