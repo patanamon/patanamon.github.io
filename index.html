@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="page-titile-wraper aboutme-wraper" id="content" tabindex="-1">
+<div class="page-titile-wraper aboutme-wraper">
   <div class="container">
     <div class="row">
       <div class="col-md-3"><img src="assets/patanamon.png" style= "margin-top:20px" class="img-responsive img-circle"></div>
@@ -33,7 +33,9 @@ layout: default
               <h4 class="media-heading"><a href="{{paper.url}}">{{paper.title}}</a></h4>
               <label>Authors:</label> {{paper.authors}} <br/>
               <label>Venue:</label> {{paper.venue}} <br/>
+              {% if paper.acceptance %}
               <label>Acceptance Rate:</label> {{paper.acceptance}} <br/>
+              {% endif %}
               <label>Preprint:</label> <a href="{{paper.preprint}}">PDF</a>
           </li> 
           {% endfor %}
