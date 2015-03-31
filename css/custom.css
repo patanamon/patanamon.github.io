@@ -111,7 +111,7 @@ border-color: #80233c;
 
 @media (max-width: 999px) {  
 	a.custom-navbar-brand{
-		font-size: 14pt; padding-right: 0;  
+		font-size: 16pt; padding-right: 0;  
 	} 
 	.bs-docs-nav .navbar-toggle .icon-bar {
   		background-color: #9A334F;
@@ -119,7 +119,10 @@ border-color: #80233c;
 
 }
 
-@media (max-width: 400px) {  
+@media (max-width: 400px) { 
+	a.custom-navbar-brand{
+		width: 250px;
+	} 
 	.footer .container .text-muted {
   		margin: 10px 0;
   		font-size: 12px;
