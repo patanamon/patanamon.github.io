@@ -1,0 +1,79 @@
+.aboutme-wraper{
+  background-image: url("../assets/texture.jpg");
+  background-repeat: repeat;
+
+  padding-bottom: 20px;
+}
+
+a{
+  color:#9A334F !important ;
+  text-decoration: none;
+}
+.aboutme-wraper p{
+	font-size: 20px;
+  font-weight: 200 !important;
+}
+
+.custom_navbar{
+  background-image: url("../assets/texture.jpg");
+  background-repeat: repeat;
+}
+
+.custom-navbar-brand{
+  font-size: 25px;
+  font-weight: 400 !important;
+
+}
+
+h1, h2,h3{
+	font-weight: 400 !important;
+}
+
+.color_wrapper {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 10px;
+  background-color: #9A334F;
+  clear: both;
+}
+
+.nav-space {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  background-color: #9A334F;
+  clear: both;
+}
+
+.navbar-nav,
+.navbar-nav > li > a
+{
+	background-color: #9A334F !important;
+
+}
+
+.navbar-nav > li > a:hover, 
+.navbar-nav > li > a:focus {
+	background-color: #80233c !important;
+}
+
+.navbar-nav li a{
+	color:white !important;
+}
+
+.btn-primary{
+
+  background-color: transparent !important;
+  border-color: #80233c;
+}
+
+a:hover.btn-primary , 
+a:focus.btn-primary {
+	  color: #fff !important;
+background-color: #9A334F !important;
+border-color: #80233c;
+}
+
+
