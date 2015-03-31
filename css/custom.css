@@ -1,3 +1,7 @@
+body{
+	font-size: 16px;
+
+}
 .aboutme-wraper{
   background-image: url("../assets/texture.jpg");
   background-repeat: repeat;
@@ -19,10 +23,21 @@ a{
   background-repeat: repeat;
 }
 
+
 .custom-navbar-brand{
   font-size: 25px;
   font-weight: 400 !important;
 
+}
+
+
+@media (max-width: 999px) {  
+	a.custom-navbar-brand{
+		font-size: 16pt; padding-right: 0;  
+	} 
+	.bs-docs-nav .navbar-toggle .icon-bar {
+  		background-color: #9A334F;
+	}
 }
 
 h1, h2,h3{
@@ -74,6 +89,33 @@ a:focus.btn-primary {
 	  color: #fff !important;
 background-color: #9A334F !important;
 border-color: #80233c;
+}
+
+/*======================*/
+/* Sticky Footer    */
+/*======================*/
+.footer {
+  
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-image: url("../assets/texture.jpg");
+  background-repeat: repeat;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.footer .container {
+  width: auto;
+  max-width: 900px;
+  padding: 0 15px;
+}
+.footer .container .text-muted {
+  margin: 20px 0;
+  font-size: 12px;
 }
 
 
