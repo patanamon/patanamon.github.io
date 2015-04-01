@@ -1,0 +1,29 @@
+- name: "NEC C&C Grant for Non-Japanese Researchers"
+  value: "1,500,000 JPY for 1 year (Apr 2015 - Mar 2016)"
+  detail: "NEC C&C Foundation provides financial support to non-Japanese engaged in research at universities and research institutes in Japan in the fields of C&C. The grant will be offered to the top-three applicants (Ph.D. students) accross the country."  
+  url: "http://www.candc.or.jp/jyosei/jyosei_gaikoku.html#2015"
+
+- name: NAIST Grant for Oversea Research Collaboration
+  value: "120,000 JPY for visiting at SAIL Lab, Queen's University, Canada"
+  detail: "NAIST Global Initiatives Program provides financial support for the visiting at SAIL Lab, Queen's University, Canada" 
+  url: http://www.naist.jp/cir/contents/cir_activities/initiative/initiative_en.html
+
+- name: NAIST Excellent Student Scholarship 2014
+  value: "535,800 JPY for 1 year (Apr 2014 - Mar 2015)"
+  detail: NAIST aims to attract and foster excellent students who will study doctoral course by setting up the full-year tuition exemption program. The scholarship will be offered to students who demonstrate a high standard of scholarly achievement in graduate studies.
+  url: http://www.naist.jp/news/topics_20140619.html
+
+- name: "NEC C&C Grants for Researchers Attending International Conferences"
+  value: "200,000 JPY for attending the International Conference on Software Engineering (ICSE2014), Hyderabad, India"
+  detail: "Attending the 36th International Conference on Software Engineering (ICSE2014), Hyderabad, India"
+  url: 
+
+- name: JASSO Honor's Scholarship for Privately-Financed International Students
+  value: "390,000 JPY for 6 months (Oct 2013 - Mar 2014)"
+  detail: Japan Student Services Organization (JASSO) offers Monbukagakusho Honors Scholarship for Privately Financed International Students who attend a university or other institution of higher education in Japan.
+  url:
+
+- name: Creative and International Competitiveness Project (CICP 2013)
+  value: '500,000 JPY for supporting project titled "PitchFlow: Better Guitar Sheet Music Library Through Real-time Editing and Award Strategy"'
+  detail:
+  url: https://cicp.naist.jp/2013

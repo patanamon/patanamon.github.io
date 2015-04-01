@@ -52,14 +52,12 @@ h1, h2,h3{
   clear: both;
 }
 
-.nav-space {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  height: 60px;
-  background-image: url("../assets/texture.jpg");
-  background-repeat: repeat;
-  clear: both;
+*[id]:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -80px; 
+  height: 80px; 
+  visibility: hidden; 
 }
 
 .navbar-nav,
@@ -94,29 +92,42 @@ border-color: #80233c;
 /*======================*/
 /* Sticky Footer    */
 /*======================*/
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
 .footer {
-  
+  position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-image: url("../assets/texture.jpg");
-  background-repeat: repeat;
+  background-color: #f5f5f5;
 }
-
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
-.footer .container {
-  width: auto;
-  max-width: 680px;
-  padding: 0 15px;
-}
-.footer .container .text-muted {
+.container .text-muted {
   margin: 20px 0;
-  font-size: 12px;
 }
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
 
 @media (max-width: 999px) {  
 	a.custom-navbar-brand{
@@ -135,6 +146,15 @@ border-color: #80233c;
   }
 
 }
+
+.sub-header{
+  margin-top: 0px;
+}
+
+ol { padding-left:20px; }
+.paper-list li{ margin-bottom:10px; }
+
+
 @media (max-width: 400px) { 
 	a.custom-navbar-brand{
 		width: 250px;

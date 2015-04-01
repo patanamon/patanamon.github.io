@@ -1,0 +1,22 @@
+- name: "Queen's University, Canada"
+  papers:
+    - name: "MSR'15"
+
+- name: "Kasetsart University, Thailand"
+  papers:
+    - name: "IWESEP'14"
+
+- name: "University of Hawaii at Manoa, USA"
+  papers:
+    - name: "IWESEP'14"
+
+- name: "Osaka University, Japan"
+  papers:
+    - name: "CHASE'14"
+    - name: "ICSME'14"
+    - name: "SANER'15"
+
+- name: "Nagoya University, Japan"
+  papers:
+    - name: "ICSME'14"
+    - name: "SANER'15"

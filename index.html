@@ -5,16 +5,15 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-md-3"><img src="assets/patanamon.png" style= "margin-top:20px" class="img-responsive img-circle"></div>
-      <div class="col-md-9">  
-        <h3>About me</h3>
-        <p>I am a Thai student pursuing a doctoral degree at Software Design and Analysis Laboratory (SDLAB), Nara Institute of Science and Technology (NAIST), Japan. 
+      <div class="col-md-9"> 
+        <h3 id="about">About me</h3>
+        <p class="text-justify">I'm a Thai student pursuing a doctoral degree at Software Design and Analysis Laboratory (SDLAB), Nara Institute of Science and Technology (NAIST), Japan. 
         I use empirical software engineering techniques to study software development process and software quality.
         Particularly, my Ph.D. thesis is focused on studying the important characteristics of modern code review practices and providing guidelines for practitioners to achieve high quality of software systems.</p>
-        <div class="pull-right" style="padding-right:20px; bottom:0;">
-          <br/>
+        <div class="pull-right">
           <a href="http://jp.linkedin.com/pub/patanamon-thongtanunam/47/9b1/343" target="_blank"><img src="assets/linkedin.png"></a>
           <a href="https://twitter.com/pamon" target="_blank"><img src="assets/twitter.png"></a>
-          <a href="#" class="btn btn-primary btn-md" role="button">
+          <a href="/assets/CV_Patanamon_Thongtanunam.pdf" class="btn btn-primary btn-md" role="button">
             <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download my CV
           </a>
         </div>
@@ -26,7 +25,7 @@ layout: default
 <div class="container">
   <div class="row">
     <div class="col-md-12" role="main">
-        <h3 id="publications" class="page-header">Publications</h3>
+        <h2 id="publications" class="page-header">Publications</h2>
         <ol class="paper-list">
           {% for paper in site.papers  reversed %}
           <li> 
@@ -40,6 +39,63 @@ layout: default
           </li> 
           {% endfor %}
         </ol>
+        <h2 id="recognition" class="page-header">Recognition</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="sub-header">Grants & Scholarships</h3>
+            <ol class="paper-list" id="grants">
+              {% for scholar in site.data.scholarships %}
+              <li>
+                <b><a href="{{scholar.url}}" target="_blank">{{scholar.name}}</a></b><br/>
+              <b>Detail:</b> {{scholar.value}} <br/> 
+              </li> 
+              {% endfor %}
+            </ol>
+          </div>
+          <div class="col-md-6 sub-box">
+            <h3 class="sub-header">Awards</h3>
+            <ol class="paper-list">
+              {% for award in site.data.awards %}
+              <li> 
+                <b>{{award.name}}</b><br/>
+                {{award.detail}} <br/> 
+              </li> 
+              {% endfor %}
+            </ol>
+          </div>
+        </div>
+        <h2 id="activity" class="page-header">Activities & Experiences</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="sub-header">Community Services</h3>
+            <ol class="paper-list" id="grants">
+              {% for service in site.data.services %}
+              <li>
+                <b>{{service.name}}</b><br/>
+                <ul>
+                  {% for conference in service.conferences %}
+                  <li>{{conference.name}}</li>
+                  {% endfor %}
+                </ul> 
+              </li> 
+              {% endfor %}
+            </ol>
+          </div>
+          <div class="col-md-6 sub-box">
+            <h3 class="sub-header">Research Collaborations</h3>
+            <ul class="paper-list">
+              {% for collaboration in site.data.collaborations %}
+              <li> 
+                <b>{{collaboration.name}}</b><br>
+                Co-authored paper{% if collaboration.papers.size > 1%}s{% endif %}: 
+                {% for paper in collaboration.papers %}
+                  {{paper.name}}
+                {% endfor %}
+              </li> 
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
     </div>
   </div>
 </div>

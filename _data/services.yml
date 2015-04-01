@@ -1,0 +1,8 @@
+- name: "Organizing Committee"
+  conferences:
+    - name: "[Financial Chair] International Workshop on Empirical Software Engineering in Practice (IWESEP2014)"
+    - name: "[Financial Chair] Thailand-Japan International Academic Conference 2013 (TJIA2013)"
+
+- name: "Reviewer"
+  conferences:
+    - name: "Thailand-Japan International Academic Conference 2013 (TJIA2013)"
