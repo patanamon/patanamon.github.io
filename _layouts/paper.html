@@ -14,7 +14,7 @@ layout: default
 <div class="paper-detail">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-9">
 				<h2 class="page-header">{{page.title}}</h2>
 				<p><label>Authors:</label> {{page.authors}}</p>
 				<p><label>Venue:</label> {{page.venue}}</p>
@@ -33,6 +33,7 @@ layout: default
 				<p><label>Bibtex</label></p>
 				{% highlight tex %}{{ page.content | strip_html }}{% endhighlight %}
 			</div>
+			{% include sidebar.html %}
 		</div>
 	</div>
 </div>

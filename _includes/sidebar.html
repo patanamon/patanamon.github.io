@@ -1,0 +1,19 @@
+    <div class="col-md-3 panel panel-default side-bar">
+      <div class="panel-body">
+        <h3>Summary</h3>
+        <p class="lead panel-sub-head">Publications by Year </p>
+        {% assign years = site.papers | group_by:"pubyear" %}
+        {% for year in years reversed %}
+        <p class="lead"><span class="label my-label">{{year.name}}</span> x {{year.items.size}}</p>
+        {% endfor %}
+        <p class="lead panel-sub-head">Publications by Venue </p>
+        {% assign years = site.papers | group_by:"s_venue" %}
+        {% for year in years reversed %}
+        <p class="lead"><span class="label my-label">{{year.name}}</span> x {{year.items.size}}</p>
+        {% endfor %}
+        <p class="lead panel-sub-head">Recognition</p>
+        <p class="lead"><img src="/assets/grant.png"> x {{site.data.scholarships.size}} Grants</p>
+        <p class="lead"><img src="/assets/award.png"> x {{site.data.awards.size}} Awards</p>
+        <p class="lead"><img src="/assets/world.png"> x {{site.data.collaborations.size}} Universities of collaboration</p>
+      </div>
+    </div>

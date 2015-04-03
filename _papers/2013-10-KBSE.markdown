@@ -5,6 +5,7 @@ title:  "Reviewer Recommendation for Peer Review Based on File Path Similarity: 
 authors: "<u>Patanamon Thongtanunam</u>, Ana E. C. Cruz, Norihiro Yoshida, Hajimu Iida"
 venue: "Knowledge-based Software Engineering (SIG – KBSE)"
 pubyear: 2013
+s_venue: KBSE
 preprint: http://sdlab.naist.jp/pman3/pman3.cgi?DOWNLOAD=89
 abstract: "Peer Review is regarded as an important quality assurance mechanism in Open Source Software (OSS)
 development. Every change and its impact need to be assessed by developers to assure the quality of software. For

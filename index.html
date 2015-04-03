@@ -24,7 +24,7 @@ layout: default
 
 <div class="container">
   <div class="row">
-    <div class="col-md-12" role="main">
+    <div class="col-md-9" role="main">
         <h2 id="publications" class="page-header">Publications</h2>
         <ol class="paper-list">
           {% for paper in site.papers  reversed %}
@@ -97,6 +97,7 @@ layout: default
           </div>
         </div>
     </div>
+    {% include sidebar.html %}
   </div>
 </div>
 
