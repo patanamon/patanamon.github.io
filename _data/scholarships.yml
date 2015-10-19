@@ -1,3 +1,8 @@
+- name: "JSPS Research fellowship for Young Scientist "
+  value: "4,800,00 JPY with additional research grant for 2 years (Apr 2016 - Mar 2018)"
+  detail: "Acceptance rate 148/738 (20%)"  
+  url: "http://www.jsps.go.jp/english/e-pd/index.html"
+
 - name: "NEC C&C Grant for Non-Japanese Researchers"
   value: "1,500,000 JPY for 1 year (Apr 2015 - Mar 2016)"
   detail: "NEC C&C Foundation provides financial support to non-Japanese engaged in research at universities and research institutes in Japan in the fields of C&C. The grant will be offered to the top-three applicants (Ph.D. students) accross the country."  
