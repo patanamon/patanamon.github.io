@@ -29,13 +29,16 @@ layout: default
         <ol class="paper-list">
           {% for paper in site.papers  reversed %}
           <li> 
-              <h4 class="media-heading"><a href="{{paper.url}}">{{paper.title}}</a></h4>
+              <h4 class="media-heading">
+                {% if paper.preprint %}<a href="{{paper.url}}">{{paper.title}}</a>
+                {% else %}<a href="#">{{paper.title}}</a>{% endif %}
+              </h4>
               <label>Authors:</label> {{paper.authors}} <br/>
               <label>Venue:</label> {{paper.venue}} <br/>
               {% if paper.acceptance %}
               <label>Acceptance Rate:</label> {{paper.acceptance}} <br/>
               {% endif %}
-              <label>Preprint:</label> <a href="{{paper.preprint}}">PDF</a>
+               {% if paper.preprint %}<label>Preprint:</label> <a href="{{paper.preprint}}">PDF</a>{% endif %}
           </li> 
           {% endfor %}
         </ol>
