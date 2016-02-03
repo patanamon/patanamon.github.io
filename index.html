@@ -27,7 +27,7 @@ layout: default
     <div class="col-md-9" role="main">
         <h2 id="publications" class="page-header">Publications</h2>
         <ol class="paper-list">
-          {% for paper in site.papers  reversed %}
+          {% for paper in site.papers  %}
           <li> 
               <h4 class="media-heading">
                 {% if paper.preprint %}<a href="{{paper.url}}">{{paper.title}}</a>
