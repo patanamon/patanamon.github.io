@@ -33,14 +33,13 @@ layout: default
                 {% if paper.preprint %}<a href="{{paper.url}}">{{paper.title}}</a>
                 {% else %}<a href="#">{{paper.title}}</a>{% endif %}
               </h4>
-              
+               {% if paper.award %}<img src="assets/star.png" width="28"><b>{{paper.award}}</b><img src="assets/star.png" width="28"><br/>{% endif %}
               <label>Authors:</label> {{paper.authors}} <br/>
               <label>Venue:</label> {{paper.venue}} <br/>
               {% if paper.acceptance %}
               <label>Acceptance Rate:</label> {{paper.acceptance}} <br/>
               {% endif %}
-               {% if paper.preprint %}<label>Preprint:</label> <a href="{{paper.preprint}}">PDF</a>{% endif %}
-              
+               {% if paper.preprint %}<label>Preprint:</label> <a href="{{paper.preprint}}">PDF</a>{% endif %}  {% if paper.feature %}; {{paper.feature}}{% endif %}              
           </li> 
           {% endfor %}
         </ol>
