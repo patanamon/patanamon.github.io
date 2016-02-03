@@ -1,6 +1,6 @@
 ---
 layout: paper
-date:   2014-09-20 00:00:00
+p_date:   2014-09-20 00:00:00
 title:  "Assessing MCR Discussion Usefulness using Semantic Similarity"
 authors: "Thai Pangsakulyanont, <u>Patanamon Thongtanunam</u>, Daniel Port, Hajimu Iida"
 venue: "The 6th International Workshop on Empirical Software Engineering in Practice (IWESEP2014)"

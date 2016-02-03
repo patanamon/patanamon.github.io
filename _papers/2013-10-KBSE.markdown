@@ -1,6 +1,6 @@
 ---
 layout: paper
-date:   2013-10-10 00:00:00
+p_date:   2013-10-10 00:00:00
 title:  "Reviewer Recommendation for Peer Review Based on File Path Similarity: A Case Study of the Android Open Source Project"
 authors: "<u>Patanamon Thongtanunam</u>, Ana E. C. Cruz, Norihiro Yoshida, Hajimu Iida"
 venue: "Knowledge-based Software Engineering (SIG – KBSE)"
