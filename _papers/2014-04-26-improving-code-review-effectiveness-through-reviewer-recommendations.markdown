@@ -1,6 +1,6 @@
 ---
 layout: paper
-p_date:   2014-02-26 00:00:00
+date:   2014-02-26 00:00:00
 title:  "Improving Code Review Effectiveness Through Reviewer Recommendations"
 authors: "<u>Patanamon Thongtanunam</u>, Raula G. Kula, Ana E. C. Cruz, Norihiro Yoshida, Hajimu Iida"
 venue: "The 7th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE2014)"

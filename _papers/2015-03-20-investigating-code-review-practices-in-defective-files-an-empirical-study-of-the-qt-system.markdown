@@ -1,6 +1,6 @@
 ---
 layout: paper
-p_date:   2015-03-20 00:00:00
+date:   2015-03-20 00:00:00
 title:  "Investigating Code Review Practices in Defective Files: An Empirical Study of the Qt System"
 authors: "<u>Patanamon Thongtanunam</u>, Shane McIntosh, Ahmed E. Hassan, Hajimu Iida"
 venue: "The 12th Working Conference on Mining Software Repositories (MSR2015)"

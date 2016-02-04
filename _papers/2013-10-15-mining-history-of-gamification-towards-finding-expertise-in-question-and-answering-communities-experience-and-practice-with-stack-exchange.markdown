@@ -1,6 +1,6 @@
 ---
 layout: paper
-p_date:   2013-12-15 00:00:00
+date:   2013-12-15 00:00:00
 title:  "Mining History of Gamification Towards Finding Expertise in Question and Answering Communities: Experience and Practice with Stack Exchange"
 authors: "<u>Patanamon Thongtanunam</u>, Raula G. Kula, Ana E. C. Cruz, Norihiro Yoshida, Kohei Ichikawa, Hajimu Iida"
 venue: "The Review of Socionetwork Strategies, Vol. 7(12):115-130, 2013"
