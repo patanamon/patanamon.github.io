@@ -11,6 +11,8 @@ github_username:  none
 # Build settings
 markdown: kramdown
 
+future: true
+
 collections:
   papers:
     output: true

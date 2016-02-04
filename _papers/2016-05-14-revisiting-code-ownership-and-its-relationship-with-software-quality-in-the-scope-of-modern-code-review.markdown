@@ -1,6 +1,6 @@
 ---
 layout: paper
-date: 2016-01-14 00:00:00
+date: 2016-05-14 00:00:00
 title:  "Revisiting Code Ownership and Its Relationship with Software Quality in the Scope of Modern Code Review"
 authors: "<u>Patanamon Thongtanunam</u>, Shane McIntosh, Ahmed E. Hassan, Hajimu Iida"
 venue: "The 38th International Conference on Software Engineering (ICSE2016)"
