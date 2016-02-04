@@ -30,8 +30,7 @@ layout: default
           {% for paper in site.papers reversed %}
           <li> 
               <h4 class="media-heading">
-                {% if paper.preprint %}<a href="{{paper.url}}">{{paper.title}}</a>
-                {% else %}<a href="#">{{paper.title}}</a>{% endif %}
+                <a href="{{paper.url}}">{{paper.title}}</a>
               </h4>
                {% if paper.award %}<img src="assets/star.png" width="28"><b>{{paper.award}}</b><img src="assets/star.png" width="28"><br/>{% endif %}
               <label>Authors:</label> {{paper.authors}} <br/>
