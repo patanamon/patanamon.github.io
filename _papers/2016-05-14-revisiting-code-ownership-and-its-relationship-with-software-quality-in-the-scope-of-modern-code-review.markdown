@@ -18,4 +18,3 @@ slides:
 	Pages = {To appear},
 	Year = {2016}
 }
----
