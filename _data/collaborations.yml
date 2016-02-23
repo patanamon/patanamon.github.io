@@ -1,6 +1,11 @@
+- name: "McGill University, Canada"
+  papers:
+    - name: "ICSE'16"
+
 - name: "Queen's University, Canada"
   papers:
     - name: "MSR'15"
+    - name: "ICSE'16"
 
 - name: "Kasetsart University, Thailand"
   papers:
