@@ -8,7 +8,7 @@ layout: default
       <div class="col-md-9"> 
         <h3 id="about">About me</h3>
         <p class="text-justify">I'm pursuing a doctoral degree at Software Design and Analysis Laboratory (SDLAB), Nara Institute of Science and Technology (NAIST), Japan. 
-        I use empirical software engineering techniques to study software development process and software quality.
+        By using statistical analysis, I aim to uncover empirical evidences and knowledge from data recorded in software repositories.
         Particularly, my Ph.D. thesis is focused on studying the important characteristics of modern code review practices and providing guidelines for practitioners to achieve high quality of software systems.</p>
         <div class="pull-right">
           <a href="#">patanamon-t {at} is.naist.jp</a>
@@ -39,7 +39,7 @@ layout: default
               {% if paper.acceptance %}
               <label>Acceptance Rate:</label> {{paper.acceptance}} <br/>
               {% endif %}
-               {% if paper.preprint %}<label>Preprint:</label> <a href="{{paper.preprint}}">PDF</a>{% endif %}  {% if paper.feature %}; {{paper.feature}}{% endif %}              
+               {% if paper.preprint %}<label>Preprint:</label> <a href="{{paper.preprint}}">PDF</a>{% endif %}{% if paper.preprint_2 %} or <a href="{{paper.preprint_2}}">PDF (server 2)</a>{% endif %}  {% if paper.feature %}; {{paper.feature}}{% endif %}              
           </li> 
           {% endfor %}
         </ol>
