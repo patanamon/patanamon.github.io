@@ -1,3 +1,7 @@
+- name: "JSPS Grant-in-Aid (KAKENHI)"
+  value: "2,000,000 JPY for 2 years (Apr 2016 - Mar 2018)" 
+  url: "https://www.jsps.go.jp/english/e-grants/"
+
 - name: "JSPS Research Fellowship for Young Scientist "
   value: "4,800,000 JPY for 2 years (Apr 2016 - Mar 2018)"
   detail: "Acceptance rate 148/738 (20%)"  
