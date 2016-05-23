@@ -16,6 +16,6 @@ slides: https://www.slideshare.net/slideshow/embed_code/key/HCAkH035EcmaWP
 	Author={Patanamon Thongtanunam and Shane McIntosh and Ahmed E. Hassan and Hajimu Iida},
 	Title = {Revisiting Code Ownership and Its Relationship with Software Quality in the Scope of Modern Code Review},
 	Booktitle = {Proceedings of the 38th International Conference on Software Engineering (ICSE)},
-	Pages = {To appear},
+	Pages = {1039–1050},
 	Year = {2016}
 }
