@@ -3,7 +3,7 @@ layout: paper
 date: 2016-08-04 00:00:00
 title:  "Review Participation in Modern Code Review: An Empirical Study of the Android, Qt, and OpenStack Projects"
 authors: "<u>Patanamon Thongtanunam</u>, Shane McIntosh, Ahmed E. Hassan, Hajimu Iida"
-venue: "Empirical Software Engineering (EMSE)"
+venue: "The Journal of Empirical Software Engineering (EMSE)"
 pubyear: 2016
 acceptance: 
 s_venue: EMSE
