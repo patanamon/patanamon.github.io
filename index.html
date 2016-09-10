@@ -117,6 +117,18 @@ layout: default
               {% endfor %}
             </ul>
           </div>
+          <div class="col-md-12 sub-box">
+            <h3 class="sub-header">Invited Talks</h3>
+            <ul class="paper-list">
+              {% for talk in site.data.talks %}
+              <li> 
+                {{talk.title}}<br/>
+                <label>Venue:</label> {{talk.venue}} <br/>
+                <label>Date:</label> {{talk.date}}
+              </li> 
+              {% endfor %}
+            </ul>
+          </div>
         </div>
     </div>
     {% include sidebar.html %}
