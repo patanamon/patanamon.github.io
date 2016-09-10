@@ -43,6 +43,24 @@ layout: default
           </li> 
           {% endfor %}
         </ol>
+
+        <h2 id="publications" class="page-header">Theses</h2>
+        <ol class="paper-list">
+
+          {% for thesis in site.theses reversed %}
+          <li> 
+              <h4 class="media-heading">
+                <a href="{{thesis.url}}">{{thesis.title}}</a>
+              </h4>
+               {% if thesis.award %}<img src="assets/star.png" width="28"><b>{{thesis.award}}</b><img src="assets/star.png" width="28"><br/>{% endif %}
+              <label>Author:</label> {{thesis.authors}} <br/>
+              <label>Degree:</label> {{thesis.degree}} <br/>
+              <label>Venue:</label> {{thesis.venue}} <br/>
+              <label>Publication Year:</label> {{thesis.pubyear}} <br/>
+          </li> 
+          {% endfor %}
+        </ol>
+
         <h2 id="recognition" class="page-header">Recognition</h2>
         <div class="row">
           <div class="col-md-12">

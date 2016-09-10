@@ -17,3 +17,6 @@ collections:
   papers:
     output: true
     permalink: /publications/:title/
+  theses:
+    output: true
+    permalink: /publications/:title/

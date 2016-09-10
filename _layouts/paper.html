@@ -18,6 +18,12 @@ layout: default
 				<h2 class="page-header">{{page.title}}</h2>
 				<p><label>Authors:</label> {{page.authors}}</p>
 				<p><label>Venue:</label> {{page.venue}}</p>
+				{% if page.degree %}
+			  	<p><label>Degree:</label> {{page.degree}}</p>
+			  	{% endif %}
+			  	{% if page.stdperiod %}
+			  	<p><label>Study Period:</label> {{page.stdperiod}}</p>
+			  	{% endif %}
 				<p><label>Abstract:</label></p>
 				<p>{{page.abstract}}</p>
 				{% if page.preprint %}
