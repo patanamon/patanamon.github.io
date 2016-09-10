@@ -89,7 +89,7 @@ layout: default
         </div>
         <h2 id="activity" class="page-header">Activities & Experiences</h2>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12">
             <h3 class="sub-header">Community Services</h3>
             <ol class="paper-list" id="grants">
               {% for service in site.data.services %}
@@ -104,13 +104,12 @@ layout: default
               {% endfor %}
             </ol>
           </div>
-          <div class="col-md-6 sub-box">
+          <div class="col-md-12 sub-box">
             <h3 class="sub-header">Research Collaborations</h3>
             <ul class="paper-list">
               {% for collaboration in site.data.collaborations %}
               <li> 
-                <b>{{collaboration.name}}</b><br>
-                Co-authored paper{% if collaboration.papers.size > 1%}s{% endif %}: 
+                <b>{{collaboration.name}}</b> Co-authored paper{% if collaboration.papers.size > 1%}s{% endif %}: 
                 {% for paper in collaboration.papers %}
                   {{paper.name}}
                 {% endfor %}

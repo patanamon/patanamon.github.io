@@ -1,13 +1,15 @@
 - name: "Organizing Committee"
   conferences:
+    - name: "[Registration Chair] International Workshop on Empirical Software Engineering in Practice (IWESEP2016)"
     - name: "[Financial Chair] International Workshop on Empirical Software Engineering in Practice (IWESEP2014)"
     - name: "[Financial Chair] Thailand-Japan International Academic Conference 2013 (TJIA2013)"
 
 - name: "Reviewer"
   conferences:
-    - name: "The 23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER2016), Tool Track"
+    - name: "The 23rd Asia-Pacific Software Engineering Conference (APSEC2016)"
+    - name: "The 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER2016), Tool Track"
     - name: "Thailand-Japan International Academic Conference 2013 (TJIA2013)"
 
 - name: "Student Volunteer"
   conferences:
-    - name: "The 23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER2016), FOSE"
+    - name: "The 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER2016), FOSE"
