@@ -1,10 +1,11 @@
 - name: "JSPS Grant-in-Aid (KAKENHI)"
-  value: "2,000,000 JPY for 2 years (Apr 2016 - Mar 2018)" 
+  value: "1,700,000 JPY for 2 years (Apr 2016 - Mar 2018)" 
+  detail: "Grants-in-Aid for Scientific Research are competitive funds that are intended to significantly develop all scientific research in Japan. The grants provide financial support for creative and pioneering research projects that will become the foundation of social development."
   url: "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-16J02861/"
 
 - name: "JSPS Research Fellowship for Young Scientist "
   value: "4,800,000 JPY for 2 years (Apr 2016 - Mar 2018)"
-  detail: "Acceptance rate 148/738 (20%)"  
+  detail: "JSPS Research Fellowship is awarded to young researchers in Japan who demonstrate their excellent research. <i>Acceptance rate (2016): 148/738 (20%)</i>"  
   url: "http://www.jsps.go.jp/english/e-pd/index.html"
 
 - name: "NEC C&C Grant for Non-Japanese Researchers"
@@ -13,7 +14,7 @@
   url: "http://www.candc.or.jp/jyosei/jyosei_gaikoku.html#2015"
 
 - name: NAIST Global Initiatives Program Grant for Oversea Research Collaboration
-  value: "120,000 JPY for visiting at SAIL Lab, Queen's University, Canada"
+  value: "120,000 JPY"
   detail: "NAIST Global Initiatives Program provides financial support for the visiting at SAIL Lab, Queen's University, Canada" 
   url: http://www.naist.jp/cir/contents/cir_activities/initiative/initiative_en.html
 
@@ -33,6 +34,6 @@
   url:
 
 - name: Creative and International Competitiveness Project (CICP 2013)
-  value: '500,000 JPY for supporting project titled "PitchFlow: Better Guitar Sheet Music Library Through Real-time Editing and Award Strategy"'
-  detail:
+  value: '500,000 JPY'
+  detail: 'The main purpose of CICP is to raise the ability of NAIST students to plan and manage research projects as well as the communication skills. <i>Project title</i> "PitchFlow: Better Guitar Sheet Music Library Through Real-time Editing and Award Strategy"'
   url: https://cicp.naist.jp/2013

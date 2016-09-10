@@ -45,18 +45,19 @@ layout: default
         </ol>
         <h2 id="recognition" class="page-header">Recognition</h2>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12">
             <h3 class="sub-header">Grants & Scholarships</h3>
             <ol class="paper-list" id="grants">
               {% for scholar in site.data.scholarships %}
               <li>
                 <b><a href="{{scholar.url}}" target="_blank">{{scholar.name}}</a></b><br/>
-              
+                <b>Detail:</b> {{scholar.detail}} <br/> 
+                <b>Amount:</b> {{scholar.value}} <br/> 
               </li> 
               {% endfor %}
             </ol>
           </div>
-          <div class="col-md-6 sub-box">
+          <div class="col-md-12">
             <h3 class="sub-header">Awards</h3>
             <ol class="paper-list">
               {% for award in site.data.awards %}
