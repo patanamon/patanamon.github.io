@@ -3,8 +3,11 @@
     - name: "[Registration Chair] International Workshop on Empirical Software Engineering in Practice (IWESEP2016)"
     - name: "[Financial Chair] International Workshop on Empirical Software Engineering in Practice (IWESEP2014)"
     - name: "[Financial Chair] Thailand-Japan International Academic Conference 2013 (TJIA2013)"
-
-- name: "Reviewer"
+- name: "Program Committee"
+  conferences:
+    - name: "The 33rd International Conference on Software Maintenance and Evolution (ICSME2017)"
+    - name: "International Workshop on Empirical Software Engineering in Practice (IWESEP2017)"
+- name: "Additional Reviewer"
   conferences:
     - name: "The 23rd Asia-Pacific Software Engineering Conference (APSEC2016)"
     - name: "The 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER2016), Tool Track"
