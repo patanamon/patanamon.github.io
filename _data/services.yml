@@ -5,6 +5,7 @@
     - name: "[Financial Chair] Thailand-Japan International Academic Conference 2013 (TJIA2013)"
 - name: "Program Committee"
   conferences:
+    - name: "International Conference on Mining Software Repositories (MSR2017), Mining Challenge"
     - name: "International Conference on Software Maintenance and Evolution (ICSME2017)"
     - name: "International Workshop on Empirical Software Engineering in Practice (IWESEP2017)"
 - name: "Additional Reviewer"
