@@ -1,10 +1,10 @@
 ---
 layout: paper
-date: 2016-08-04 00:00:00
+date: 2017-04-01 00:00:00
 title:  "Review Participation in Modern Code Review: An Empirical Study of the Android, Qt, and OpenStack Projects"
 authors: "<u>Patanamon Thongtanunam</u>, Shane McIntosh, Ahmed E. Hassan, Hajimu Iida"
 venue: "The Journal of Empirical Software Engineering (EMSE)"
-pubyear: 2016
+pubyear: 2017
 acceptance: 
 s_venue: EMSE
 preprint: http://sail.cs.queensu.ca/Downloads/EMSE2016_ReviewParticipationInModernCodeReviewAnEmpiricalStudyOfTheAndroidQtAndOpenStackProjects.pdf
@@ -18,7 +18,7 @@ abstract: "Software code review is a well-established software quality practice.
     volume = {22},
     number = {2},
 	pages = {768--817},
-	Year = {2016},
+	Year = {2017},
     doi = {10.1007/s10664-016-9452-6}
 }
 
