@@ -47,6 +47,10 @@ a{
   font-weight: 200 !important;
 }
 
+.aboutme-wraper .highlight{
+  background-color: rgb(255, 214, 66);
+}
+
 .custom_navbar{
   background-image: url("../assets/texture.jpg");
   background-repeat: repeat;
@@ -191,8 +195,4 @@ ol { padding-left:20px; }
   		margin: 10px 0;
   		font-size: 12px;
 	}
-}
-
-.well{
-  background-color: rgb(255, 214, 66);
 }
