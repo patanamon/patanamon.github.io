@@ -47,8 +47,8 @@ a{
   font-weight: 200 !important;
 }
 
-.aboutme-wraper .highlight{
-  background-color: rgb(255, 214, 66);
+.aboutme-wraper .well{
+  background-color: #FFD642 !important;
 }
 
 .custom_navbar{
