@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<div class="page-titile-wraper" id="content" tabindex="-1">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+        <p class="lead"><a href="/">Home</a> | Talks </p> 
+    </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-9" role="main">
+        <h2>Talks</h2>
+          {% for paper in site.data.talks reversed %}
+          {% if paper.slides %}
+              <h3 class="media-heading">
+                <a href="{{paper.url}}" >{{paper.title}}</a>
+              </h3>
+                <iframe src={{ paper.slides }} width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"></div>        
+          {% endif %} 
+          {% endfor %}
+        <h2>Papers Presentation</h2>
+          {% for paper in site.papers reversed %}
+          {% if paper.slides %}
+              <h3 class="media-heading">
+                <a href="{{paper.url}}">{{paper.title}}</a>
+              </h3>
+                <iframe src={{ paper.slides }} width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"></div>        
+          {% endif %} 
+          {% endfor %}
+          <h2>Theses Presentation</h2>
+          {% for paper in site.theses reversed %}
+          {% if paper.slides %}
+              <h3 class="media-heading">
+                <a href="{{paper.url}}">{{paper.title}}</a>
+              </h3>
+                <iframe src={{ paper.slides }} width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"></div>       
+          {% endif %} 
+          {% endfor %}
+
+    </div>
+    {% include sidebar.html %}
+  </div>
+</div>
+

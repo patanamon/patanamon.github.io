@@ -4,7 +4,9 @@ layout: default
 <div class="page-titile-wraper aboutme-wraper">
   <div class="container">
     <div class="row">
-      <div class="col-md-3"><img src="assets/patanamon.jpg" style= "margin-top:20px" class="img-responsive img-circle"></div>
+      <div class="col-md-3"><img src="assets/patanamon.jpg" style= "margin-top:20px" class="img-responsive img-circle">
+          <div style="margin-top:5px"> <img src="assets/email.png" width='28' style="margin-right:5px"><a href="#">patanamon {at} gmail.com</a></div>
+      </div>
       <div class="col-md-9"> 
         <h3 id="about">About me</h3>
         <p class="text-justify">I'm a postdoctoral fellow at the Software Analysis and Intelligence Laboratory (SAIL), Queen's University under the supervision of Professor Ahmed E. Hassan. 
@@ -12,14 +14,11 @@ layout: default
         By using statistical analysis, I aim to uncover empirical evidences and knowledge from data recorded in software repositories.
         In particular, my Ph.D. thesis aims to better understand the current practices of code review and to provide actionable insights and process support for practitioners to achieve high quality of software systems.</p>
 
-        <div class="pull-right">
-          <a href="#">patanamon {at} gmail.com</a>
-          <a href="https://www.linkedin.com/in/patanamon" target="_blank"><img src="assets/linkedin.png"></a>
-          <a href="https://twitter.com/pamon" target="_blank"><img src="assets/twitter.png"></a>
-          <a href="/assets/CV_Patanamon_Thongtanunam.pdf" class="btn btn-primary btn-md" role="button">
-            <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download my CV
-          </a>
-        </div>
+        <p class="well">
+          I will join a faculty member as a lecturer at the School of Computer Science, <b>the University of Adelaide</b> (one of the top 125 QS World Universities Ranking and one of the Go8 Australian leading universities) on January 2018. I'm open to working with Master/Ph.D. students who enthusiastically want to learn how to mine big data and discover knowledge for our software engineering society! Feel free contact me if you are interested in ;)
+        </p>
+
+        
       </div>
     </div>
   </div>
@@ -88,9 +87,8 @@ layout: default
               {% endfor %}
             </ol>
           </div>
-        </div>
-        <h2 id="activity" class="page-header">Activities & Experiences</h2>
-        <div class="row">
+        
+      
           <div class="col-md-12">
             <h3 class="sub-header">Community Services</h3>
             <ol class="paper-list" id="grants">
@@ -120,12 +118,19 @@ layout: default
             </ul>
           </div>
           <div class="col-md-12 sub-box">
-            <h3 class="sub-header">Invited Talks</h3>
+            <h3 class="sub-header">Public Talks</h3>
             <ul class="paper-list">
               {% for talk in site.data.talks %}
               <li> 
                 {{talk.title}}<br/>
-                <label>Venue:</label> {{talk.venue}} <br/>
+                <label>Venue:</label> 
+                {% if talk.venue_link %}
+                    <a href="{{talk.venue_link}}">{{talk.venue}}</a>
+                {% else %}
+                    {{talk.venue}}
+                {% endif %}
+                <br/>
+
                 <label>Date:</label> {{talk.date}}
               </li> 
               {% endfor %}

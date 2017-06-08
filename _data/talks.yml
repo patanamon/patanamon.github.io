@@ -1,5 +1,13 @@
+- title: "Using HPC Resources to Exploit Big Data for Code Review Analytics"
+  date: 07 June 2017
+  venue: "High Performance Computing Symposium (HPCS), Queen's University, Canada"
+  venue_link: http://2017.hpcs.ca/
+  slides: https://www.slideshare.net/slideshow/embed_code/key/fSyBMTkOLAm3u8
+  url: "/assets/publications/Thongtanunam_HPCS2017_using-HPC-Resources-to-Exploit-Big-Data-for-Code-Review-Analytics.pdf"
+
 - title: "Revisiting Code Ownership and Its Relationship with Software Quality in the Scope of Modern Code Review"
   date: 08 September 2016
+  venue_link: https://jssst2016.wordpress.com/
   venue: "Japan Society for Software Science and Technology (JSST), Tohoku University, Japan"
 
 - title: "Revisiting Code Ownership in the Scope of Modern Code Review"
@@ -9,3 +17,4 @@
 - title: "Revisiting Code Ownership in the Scope of Modern Code Review"
   date: 15 January 2016
   venue: "École Polytechnique de Montréal, Canada"
+
