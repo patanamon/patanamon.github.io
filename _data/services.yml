@@ -1,19 +1,22 @@
+- name: "Award Committee"
+  venues:
+    - name: "Selection Committee for the IEEE TCSE Distinguished Paper Award at International Conference on Software Maintenance and Evolution (ICSME2017)"
 - name: "Organizing Committee"
-  conferences:
+  venues:
     - name: "[Registration Chair] International Workshop on Empirical Software Engineering in Practice (IWESEP2016)"
     - name: "[Financial Chair] International Workshop on Empirical Software Engineering in Practice (IWESEP2014)"
     - name: "[Financial Chair] Thailand-Japan International Academic Conference 2013 (TJIA2013)"
 - name: "Program Committee"
-  conferences:
+  venues:
     - name: "International Conference on Mining Software Repositories (MSR2017), Mining Challenge"
     - name: "International Conference on Software Maintenance and Evolution (ICSME2017)"
     - name: "International Workshop on Empirical Software Engineering in Practice (IWESEP2017)"
 - name: "Additional Reviewer"
-  conferences:
+  venues:
     - name: "The 23rd Asia-Pacific Software Engineering Conference (APSEC2016)"
     - name: "The 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER2016), Tool Track"
     - name: "Thailand-Japan International Academic Conference 2013 (TJIA2013)"
 
 - name: "Student Volunteer"
-  conferences:
+  venues:
     - name: "The 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER2016), FOSE"
