@@ -1,8 +1,15 @@
     <div class="col-md-3 panel panel-default side-bar">
+
+    <div class="panel-body">
+        <p class="lead panel-sub-head"><img src="/assets/announcement.png" width="32"> What's news</p>
+        <a class="twitter-timeline" data-height="300" data-width="300" data-link-color="#9A334F" data-chrome="noheader nofooter noborders" data-font-size="15px" href="https://twitter.com/pamon/timelines/911049925886140417"></a>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    
       <div class="panel-body">
         <p class="lead panel-sub-head">Recognition</p>
-        <p class="lead"><img src="/assets/grant.png"> x {{site.data.scholarships.size}} Grants</p>
-        <p class="lead"><img src="/assets/award.png"> x {{site.data.awards.size}} Awards</p>
+        <p class="lead"><img src="/assets/grant.png" width="48"> x {{site.data.scholarships.size}} Grants</p>
+        <p class="lead"><img src="/assets/award.png" width="48"> x {{site.data.awards.size}} Awards</p>
     
         <p class="lead panel-sub-head">Publications</p>
         {% assign years = site.papers | group_by:"s_venue" %}
