@@ -2,6 +2,9 @@
   # date: Dec 2015
   detail: "For outstanding service on the program committee at the International Conference on Software Maintenance and Evolution (ICSME2017)"
 
+- name: "Excellent Ph.D. Student Award"
+  detail: "The award is to recognize NAIST PhD students who achieved significant research results: quantity and quality of publications, and community service." 
+
 - name: "IEEE Kansai Excellent Student Paper Award"
   # date: Dec 2015
   detail: "Working Conference on Mining Software Repositories (MSR2015)"
