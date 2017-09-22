@@ -1,16 +1,22 @@
 - name: "Award Committee"
   venues:
     - name: "Selection Committee for the IEEE TCSE Distinguished Paper Award at International Conference on Software Maintenance and Evolution (ICSME2017)"
+- name: "Program Committee"
+  venues:
+    - name: "International Conference on Mining Software Repositories (MSR2018), Mining Challenge"
+    - name: "International Conference on Mining Software Repositories (MSR2017), Mining Challenge"
+    - name: "International Conference on Software Maintenance and Evolution (ICSME2017)"
+    - name: "International Workshop on Empirical Software Engineering in Practice (IWESEP2017)"
+- name: "Journal Referee"
+  venues:
+    - name: "IEEE Transactions of Software Engineering (TSE), 2017, Impact Factor: 3.27"
+    - name: "Journal of Systems and Software (JSS), 2017, Impact Factor: 2.444"
+    - name: "IEEE Transactions of Software Engineering (TSE), 2016"
 - name: "Organizing Committee"
   venues:
     - name: "[Registration Chair] International Workshop on Empirical Software Engineering in Practice (IWESEP2016)"
     - name: "[Financial Chair] International Workshop on Empirical Software Engineering in Practice (IWESEP2014)"
     - name: "[Financial Chair] Thailand-Japan International Academic Conference 2013 (TJIA2013)"
-- name: "Program Committee"
-  venues:
-    - name: "International Conference on Mining Software Repositories (MSR2017), Mining Challenge"
-    - name: "International Conference on Software Maintenance and Evolution (ICSME2017)"
-    - name: "International Workshop on Empirical Software Engineering in Practice (IWESEP2017)"
 - name: "Additional Reviewer"
   venues:
     - name: "The 23rd Asia-Pacific Software Engineering Conference (APSEC2016)"
