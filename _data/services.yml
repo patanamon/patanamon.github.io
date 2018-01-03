@@ -3,6 +3,8 @@
     - name: "Selection Committee for the IEEE TCSE Distinguished Paper Award at International Conference on Software Maintenance and Evolution (ICSME2017)"
 - name: "Program Committee"
   venues:
+    - name: "International Conference on Mining Software Repositories (MSR2018), Technical Research"
+    - name: "International Conference on Program Comprehension (ICPC2018), Tool Demonstration"
     - name: "International Conference on Mining Software Repositories (MSR2018), Mining Challenge"
     - name: "International Conference on Mining Software Repositories (MSR2017), Mining Challenge"
     - name: "International Conference on Software Maintenance and Evolution (ICSME2017)"
@@ -19,6 +21,7 @@
     - name: "[Financial Chair] Thailand-Japan International Academic Conference 2013 (TJIA2013)"
 - name: "Additional Reviewer"
   venues:
+    - name: "The 40th International Conference on Software Engineering (ICSE2018)"
     - name: "The 23rd Asia-Pacific Software Engineering Conference (APSEC2016)"
     - name: "The 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER2016), Tool Track"
     - name: "Thailand-Japan International Academic Conference 2013 (TJIA2013)"
