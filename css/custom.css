@@ -49,8 +49,9 @@ a{
   font-weight: 200 !important;
 }
 
-.aboutme-wraper .well{
-  background-color: #FFD642 !important;
+.well.recruit{
+  background-color: #ffeda0 !important;
+  margin-top: 10px;
 }
 
 .custom_navbar{
