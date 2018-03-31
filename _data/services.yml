@@ -3,12 +3,12 @@
     - name: "Selection Committee for the IEEE TCSE Distinguished Paper Award at International Conference on Software Maintenance and Evolution (ICSME2017)"
 - name: "Program Committee"
   venues:
-    - name: "International Conference on Software Maintenance and Evolution (ICSME2018)"
+    - name: "International Conference on Software Maintenance and Evolution (ICSME2018), Technical Research"
     - name: "International Conference on Mining Software Repositories (MSR2018), Technical Research"
     - name: "International Conference on Program Comprehension (ICPC2018), Tool Demonstration"
     - name: "International Conference on Mining Software Repositories (MSR2018), Mining Challenge"
     - name: "International Conference on Mining Software Repositories (MSR2017), Mining Challenge"
-    - name: "International Conference on Software Maintenance and Evolution (ICSME2017)"
+    - name: "International Conference on Software Maintenance and Evolution (ICSME2017), Technical Research"
     - name: "International Workshop on Empirical Software Engineering in Practice (IWESEP2017)"
 - name: "Journal Referee"
   venues:
