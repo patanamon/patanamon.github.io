@@ -1,0 +1,10 @@
+- year: "Semester 2, 2018 (at the University of Adelaide)"
+  subjects:
+    - name: "COMP SCI 1106 Introduction to Software Engineering"
+    - name: "COMP SCI 3006 & 7015 Software Engineering & Project"
+    - name: "COMP SCI 4409 Search-based Software Engineering (Assessor only)"
+- year: "Semester 1, 2018 (at the University of Adelaide)"
+  subjects:
+    - name: "COMP SCI 2207 & 7207 Web and Database Computing"
+    - name: "COMP SCI 4023 & 7023 Software Process and Improvement"
+    - name: "COMP SCI 1010 Puzzle Based Learning"
