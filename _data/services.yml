@@ -1,8 +1,15 @@
 - name: "Award Committee"
   venues:
+    - name: "Selection Committee for the Distinguished Paper Award at International Conference on Software Analysis, Evolution, and Reengineering (SANER2019)"
     - name: "Selection Committee for the IEEE TCSE Distinguished Paper Award at International Conference on Software Maintenance and Evolution (ICSME2017)"
 - name: "Program Committee"
   venues:
+    - name: "International Conference on Software Engineering (ICSE2020), Technical Research"
+    - name: "International Conference on Mining Software Repositories (MSR2019), Technical Research"
+    - name: "International Conference on Mining Software Repositories (MSR2019), Data Showcase"
+    - name: "International Conference on Software Engineering (ICSE2019), Workshops"
+    - name: "International Conference on Software Analysis, Evolution, and Reengineering (SANER2019), Technical Research"
+    - name: "International Conference on Software Analysis, Evolution, and Reengineering (SANER2019), ERA Research"
     - name: "International Conference on Software Maintenance and Evolution (ICSME2018), Technical Research"
     - name: "International Conference on Mining Software Repositories (MSR2018), Technical Research"
     - name: "International Conference on Program Comprehension (ICPC2018), Tool Demonstration"
