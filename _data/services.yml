@@ -19,9 +19,10 @@
     - name: "International Workshop on Empirical Software Engineering in Practice (IWESEP2017)"
 - name: "Journal Referee"
   venues:
-    - name: "IEEE Transactions of Software Engineering (TSE), 2017, Impact Factor: 3.27"
+    - name: "ACM Transactions on Software Engineering and Methodology (TOSEM), 2019 (Distinguished Reviewer Board)"
+    - name: "IEEE Transactions of Software Engineering (TSE), 2017-, Impact Factor: 3.27"
+    - name: "Springer Journal of Empirical Software Engineering (EMSE), 2017-"
     - name: "Journal of Systems and Software (JSS), 2017, Impact Factor: 2.444"
-    - name: "IEEE Transactions of Software Engineering (TSE), 2016"
 - name: "Organizing Committee"
   venues:
     - name: "[Registration Chair] International Workshop on Empirical Software Engineering in Practice (IWESEP2016)"
