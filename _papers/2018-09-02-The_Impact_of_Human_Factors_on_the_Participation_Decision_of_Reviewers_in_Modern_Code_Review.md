@@ -15,10 +15,10 @@ abstract: "Modern Code Review (MCR) plays a key role in software quality practic
 	Author={Shade Ruangwan, Patanamon Thongtanunam, Akinori Ihara, Kenichi Matsumoto},
 	Title = {The Impact of Human Factors on the Participation Decision of Reviewers in Modern Code Review},
 	Booktitle = {Empirical Software Engineering (EMSE)},
-    volume = {},
-    number = {},
-	pages = {In press},
-	Year = {2018},
+    volume = {24},
+    number = {2},
+	pages = {973–1016},
+	Year = {2019},
     doi = {10.1007/s10664-018-9646-1}
 }
 
