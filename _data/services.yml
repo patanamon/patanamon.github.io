@@ -4,6 +4,7 @@
     - name: "Selection Committee for the IEEE TCSE Distinguished Paper Award at International Conference on Software Maintenance and Evolution (ICSME2017)"
 - name: "Program Committee"
   venues:
+    - name: "International Conference on Mining Software Repositories (MSR2020), Technical Research"
     - name: "International Conference on Software Engineering (ICSE2020), Technical Research"
     - name: "International Conference on Mining Software Repositories (MSR2019), Technical Research"
     - name: "International Conference on Mining Software Repositories (MSR2019), Data Showcase"
