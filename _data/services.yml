@@ -5,6 +5,8 @@
 - name: "Program Committee"
   venues:
     - name: "International Conference on Mining Software Repositories (MSR2020), Technical Research"
+    - name: "International Conference on Mining Software Repositories (MSR2020), Mining Challenge"
+    - name: "International Conference on Mining Software Repositories (MSR2020), Education Program"
     - name: "International Conference on Software Engineering (ICSE2020), Technical Research"
     - name: "International Conference on Mining Software Repositories (MSR2019), Technical Research"
     - name: "International Conference on Mining Software Repositories (MSR2019), Data Showcase"
