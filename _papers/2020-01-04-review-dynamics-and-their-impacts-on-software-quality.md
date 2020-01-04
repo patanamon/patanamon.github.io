@@ -1,7 +1,7 @@
 
 ---
 layout: paper
-date: 2019-03-01 00:00:00
+date: 2020-01-04 00:00:00
 title:  "Review Dynamics and Their Impact on Software Quality"
 authors: "Patanamon Thongtanunam and Ahmed E. Hassan"
 venue: "IEEE Transaction on Software Engineering (TSE)"
