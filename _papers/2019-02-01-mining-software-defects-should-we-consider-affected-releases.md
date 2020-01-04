@@ -14,7 +14,7 @@ abstract: "With the rise of the Mining Software Repositories (MSR) field, defect
 	Author={Yatish, Suraj and Jiarpakdee, Jirayus and Thongtanunam, Patanamon and Tantithamthavorn Chakkrit},
 	Title = {Mining Software Defects: Should We Consider Affected Releases?},
 	Booktitle = {The 41st International Conference on Software Engineering (ICSE2019)},
-	Pages = {to appear},
+	Pages = {654--665},
 	Year = {2019}
 }
 

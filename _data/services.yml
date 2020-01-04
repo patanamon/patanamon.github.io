@@ -1,13 +1,11 @@
-- name: "Award Committee"
-  venues:
-    - name: "Selection Committee for the Distinguished Paper Award at International Conference on Software Analysis, Evolution, and Reengineering (SANER2019)"
-    - name: "Selection Committee for the IEEE TCSE Distinguished Paper Award at International Conference on Software Maintenance and Evolution (ICSME2017)"
 - name: "Program Committee"
   venues:
+    - name: "The Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE2020), Technical Track"
     - name: "International Conference on Mining Software Repositories (MSR2020), Technical Research"
     - name: "International Conference on Mining Software Repositories (MSR2020), Mining Challenge"
     - name: "International Conference on Mining Software Repositories (MSR2020), Education Program"
     - name: "International Conference on Software Engineering (ICSE2020), Technical Research"
+    - name: "International Conference on Software Analysis, Evolution, and Reengineering (SANER2020), ERA Research"
     - name: "International Conference on Mining Software Repositories (MSR2019), Technical Research"
     - name: "International Conference on Mining Software Repositories (MSR2019), Data Showcase"
     - name: "International Conference on Software Engineering (ICSE2019), Workshops"
@@ -28,9 +26,15 @@
     - name: "Journal of Systems and Software (JSS), 2017, Impact Factor: 2.444"
 - name: "Organizing Committee"
   venues:
+    - name: "[Student Contest on Software Engineering (SCORE) Chair] International Conference on Software Engineering (ICSE2021)"
+    - name: "[Industry Program Chair] International Conference on Software Engineering (ICSE2019)"
     - name: "[Registration Chair] International Workshop on Empirical Software Engineering in Practice (IWESEP2016)"
     - name: "[Financial Chair] International Workshop on Empirical Software Engineering in Practice (IWESEP2014)"
     - name: "[Financial Chair] Thailand-Japan International Academic Conference 2013 (TJIA2013)"
+- name: "Award Committee"
+  venues:
+    - name: "Selection Committee for the Distinguished Paper Award at International Conference on Software Analysis, Evolution, and Reengineering (SANER2019)"
+    - name: "Selection Committee for the IEEE TCSE Distinguished Paper Award at International Conference on Software Maintenance and Evolution (ICSME2017)"
 - name: "Additional Reviewer"
   venues:
     - name: "The 40th International Conference on Software Engineering (ICSE2018)"

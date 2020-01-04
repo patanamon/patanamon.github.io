@@ -15,7 +15,7 @@ abstract: "Abstract—When lambda expressions were introduced to the Java progra
 	Author={Alqaimi, Anwar and Thongtanunam, Patanamon and Treude, Christoph},
 	Title = {Automatically Generating Documentation for Lambda Expressions in Java},
 	Booktitle = {The 16th International Conference on Mining Software Repositories (MSR2019)},
-	Pages = {to appear},
+	Pages = {310--320},
 	Year = {2019}
 }
 
