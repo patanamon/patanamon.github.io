@@ -1,6 +1,7 @@
 - name: "Program Committee"
   venues:
     - name: "The Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE2020), Technical Track"
+    - name: "International Conference on Automated Software Engineering (ASE 2020), Technical Track"
     - name: "International Conference on Mining Software Repositories (MSR2020), Technical Research"
     - name: "International Conference on Mining Software Repositories (MSR2020), Mining Challenge"
     - name: "International Conference on Mining Software Repositories (MSR2020), Education Program"
@@ -33,6 +34,7 @@
     - name: "[Financial Chair] Thailand-Japan International Academic Conference 2013 (TJIA2013)"
 - name: "Award Committee"
   venues:
+    - name: "Selection Committee for the Most Influential Paper Award at International Conference on Mining Software Repositories (MSR2020)"
     - name: "Selection Committee for the Distinguished Paper Award at International Conference on Software Analysis, Evolution, and Reengineering (SANER2019)"
     - name: "Selection Committee for the IEEE TCSE Distinguished Paper Award at International Conference on Software Maintenance and Evolution (ICSME2017)"
 - name: "Additional Reviewer"
