@@ -50,20 +50,6 @@ layout: default
           {% endfor %}
         </ol>
 
-        <h2 id="publications" class="page-header">Teaching</h2>
-        <ul class="paper-list">
-              {% for teach in site.data.teaching %}
-              <li>
-                <b>{{teach.year}}</b><br/>
-                <ul>
-                  {% for subject in teach.subjects %}
-                  <li>{{subject.name}}</li>
-                  {% endfor %}
-                </ul> 
-              </li> 
-              {% endfor %}
-          </ul>
-
         <h2 id="recognition" class="page-header">Recognition</h2>
         <div class="row">
           <div class="col-md-12">
@@ -106,19 +92,7 @@ layout: default
               {% endfor %}
             </ol>
           </div>
-          <div class="col-md-12 sub-box">
-            <h3 class="sub-header">Research Collaborations</h3>
-            <ul class="paper-list">
-              {% for collaboration in site.data.collaborations %}
-              <li> 
-                <b>{{collaboration.name}}</b> Co-authored paper{% if collaboration.papers.size > 1%}s{% endif %}: 
-                {% for paper in collaboration.papers %}
-                  {{paper.name}}
-                {% endfor %}
-              </li> 
-              {% endfor %}
-            </ul>
-          </div>
+
           <div class="col-md-12 sub-box">
             <h3 class="sub-header">Public Talks</h3>
             <ul class="paper-list">
@@ -140,6 +114,15 @@ layout: default
           </div>
         </div>
 
+        <h2 id="publications" class="page-header">Teaching</h2>
+        <ul class="paper-list">
+              {% for teach in site.data.teaching %}
+              <li>
+               {{teach.subject}}<br/>
+               {{teach.school}} - {{teach.year}}
+              </li> 
+              {% endfor %}
+          </ul>
         <h2 id="publications" class="page-header">Theses</h2>
         <ol class="paper-list">
 
