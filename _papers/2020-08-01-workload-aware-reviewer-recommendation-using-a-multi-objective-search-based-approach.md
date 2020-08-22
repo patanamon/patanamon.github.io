@@ -3,7 +3,7 @@ layout: paper
 date: 2020-08-01 00:00:00
 title:  "Workload-Aware Reviewer Recommendation using a Multi-objective Search-Based Approach"
 authors: "Wisam Haitham Abbood Al-Zubaidi, Patanamon Thongtanunam, Hoa Khanh Dam, Chakkrit Tantithamthavorn, Aditya Ghose"
-venue: "The 16th ACM SIGSOFT International Conference on Predictive Models and Data Analytics in Software Engineering"
+venue: "The 16th ACM SIGSOFT International Conference on Predictive Models and Data Analytics in Software Engineering (PROMISE2020)"
 pubyear: 2020
 acceptance: 
 preprint: https://www.researchgate.net/publication/343559053_Workload-Aware_Reviewer_Recommendation_using_a_Multi-objective_Search-Based_Approach
