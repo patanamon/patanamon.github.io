@@ -28,6 +28,7 @@
     - name: "Journal of Systems and Software (JSS), 2017, Impact Factor: 2.444"
 - name: "Organizing Committee"
   venues:
+    - name: "[Shadow Program Chair] International Conference on Mining Software Repositories (MSR2021)"
     - name: "[Student Contest on Software Engineering (SCORE) Chair] International Conference on Software Engineering (ICSE2021)"
     - name: "[Special Event Chair] International Conference on Software Engineering (ICSE2020)"
     - name: "[Schedule Chair] International Conference on Automated Software Engineering(ASE2020)"
