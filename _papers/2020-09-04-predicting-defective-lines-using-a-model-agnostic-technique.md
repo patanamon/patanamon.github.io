@@ -19,6 +19,6 @@ abstract: "Defect prediction models are proposed to help a team prioritize sourc
 	Booktitle = {IEEE Transaction on Software Engineering},
 	Pages = {to appear},
 	Year = {2020},
-	doi = {}
+	doi = {10.1109/TSE.2020.3023177}
 }
 
