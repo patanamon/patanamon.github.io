@@ -32,6 +32,9 @@ layout: default
 			  	{% if page.addition %}
 			  	{{ page.addition}}
 			  	{% endif %}
+			  	{% if page.video %}
+			  	<iframe width="560" height="315" src="{{page.video}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			  	{% endif %}
 				{% if page.slides %}
 				<p><label>Slides:</label></p>
 				<iframe src={{ page.slides }} width="710\" height="399" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"></div>
