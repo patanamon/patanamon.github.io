@@ -1,5 +1,6 @@
 - name: "Program Committee"
   venues:
+    - name: "International Conference on Automated Software Engineering (ASE 2021), Technical Track"
     - name: "The Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE2021), Technical Track"
     - name: "International Conference on Software Engineering (ICSE2020), Technical Research"
     - name: "The Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE2020), Technical Track"
