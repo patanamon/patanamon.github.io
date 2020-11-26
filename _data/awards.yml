@@ -1,5 +1,9 @@
 - name: "Distinguished PC Member Award"
   # date: Dec 2015
+  detail: "For outstanding service on the program committee at The Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE2020)"
+
+- name: "Distinguished PC Member Award"
+  # date: Dec 2015
   detail: "For outstanding service on the program committee at the International Conference on Automated Software Engineering (ASE2020)"
 
 - name: "Distinguished Reviewer Award"
