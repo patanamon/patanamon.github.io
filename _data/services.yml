@@ -42,6 +42,7 @@
     - name: "[Financial Chair] Thailand-Japan International Academic Conference 2013 (TJIA2013)"
 - name: "Award Committee"
   venues:
+    - name: "Selection Committee for the SIGSOFT Influential Educator Award 2021"
     - name: "Selection Committee for the Most Influential Paper Award at International Conference on Mining Software Repositories (MSR2020)"
     - name: "Selection Committee for the Distinguished Paper Award at International Conference on Software Analysis, Evolution, and Reengineering (SANER2019)"
     - name: "Selection Committee for the IEEE TCSE Distinguished Paper Award at International Conference on Software Maintenance and Evolution (ICSME2017)"
