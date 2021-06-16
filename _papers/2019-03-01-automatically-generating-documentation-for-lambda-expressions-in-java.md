@@ -2,7 +2,7 @@
 layout: paper
 date: 2019-03-01 00:00:00
 title:  "Automatically Generating Documentation for Lambda Expressions in Java"
-authors: "Anwar Alqaimi, Patanamon Thongtanunam, Christoph Treude"
+authors: "Anwar Alqaimi, <u>Patanamon Thongtanunam</u>, Christoph Treude"
 venue: "The 16th International Conference on Mining Software Repositories (MSR2019)"
 pubyear: 2019
 acceptance: "25% (32/126)"

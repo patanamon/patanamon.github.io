@@ -2,7 +2,7 @@
 layout: paper
 date: 2020-09-04 00:00:00
 title:  "Review Dynamics and Their Impact on Software Quality"
-authors: "Patanamon Thongtanunam and Ahmed E. Hassan"
+authors: "<u>Patanamon Thongtanunam</u>, Ahmed E. Hassan"
 venue: "IEEE Transaction on Software Engineering"
 pubyear: 2020
 acceptance: 

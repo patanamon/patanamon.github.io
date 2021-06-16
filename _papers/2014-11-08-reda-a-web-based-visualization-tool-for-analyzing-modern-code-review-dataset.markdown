@@ -3,7 +3,7 @@ layout: paper
 date:   2014-11-08 00:00:00
 title:  "ReDA: A Web-based Visualization Tool for Analyzing Modern Code Review Dataset"
 authors: "<u>Patanamon Thongtanunam</u>, Xin Yang, Norihiro Yoshida,Kenji Fujiwara,Raula Gaikovina Kula, Ana Erika Camargo Cruz, Hajimu Iida"
-venue: "The 30th International Conference on Software Maintenance and Evolution (ICSME 2014)"
+venue: "The International Conference on Software Maintenance and Evolution (ICSME)"
 pubyear: 2014
 acceptance: "52% (14/27)"
 s_venue: ICSME

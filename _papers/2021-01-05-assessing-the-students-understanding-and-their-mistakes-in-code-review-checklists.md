@@ -2,7 +2,7 @@
 layout: paper
 date: 2021-01-05 00:00:00
 title:  "Assessing the Students' Understanding and their Mistakes in Code Review Checklists"
-authors: "Chun Yong Chong, Patanamon Thongtanunam, Chakkrit Tantithamthavorn"
+authors: "Chun Yong Chong, <u>Patanamon Thongtanunam</u>, Chakkrit Tantithamthavorn"
 venue: "International Conference on Software Engineering"
 pubyear: 2021
 acceptance: 

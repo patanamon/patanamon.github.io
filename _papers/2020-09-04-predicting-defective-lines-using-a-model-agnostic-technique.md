@@ -2,7 +2,7 @@
 layout: paper
 date: 2020-09-10 00:00:00
 title:  "Predicting Defective Lines Using a Model-Agnostic Technique"
-authors: "Supatsara Wattanakriengkrai, Patanamon Thongtanunam, Chakkrit Tantithamthavorn,Hideaki Hata, and Kenichi Matsumoto"
+authors: "Supatsara Wattanakriengkrai, <u>Patanamon Thongtanunam</u>, Chakkrit Tantithamthavorn,Hideaki Hata, and Kenichi Matsumoto"
 venue: "IEEE Transaction on Software Engineering"
 pubyear: 2020
 acceptance: 
