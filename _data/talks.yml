@@ -1,22 +1,22 @@
 - title: "Code Review at Speed: How can we use data to help developers do code review faster?"
   venue: "Invited Mini-keynote at the International Conference on Mining Software Repositories (2021)"
   year: 2021
-  slide: https://speakerdeck.com/patanamon/code-review-at-speed-how-can-we-use-data-to-help-developers-do-code-review-faster
+  slides: https://speakerdeck.com/patanamon/code-review-at-speed-how-can-we-use-data-to-help-developers-do-code-review-faster
 
 - title: "Introducing the MSR2021 Shadow PC program"
   venue: "The International Conference on Mining Software Repositories (2021)"
   year: 2021
-  slide: https://speakerdeck.com/patanamon/introducing-the-msr2021-shadow-pc-program
+  slides: https://speakerdeck.com/patanamon/introducing-the-msr2021-shadow-pc-program
 
 - title: "Academic Peer Review in Software Engineering Venues"
   venue: "Monash University, Australia"
   year: 2020
-  slide: https://speakerdeck.com/patanamon/academic-peer-review-in-software-engineering-venues
+  slides: https://speakerdeck.com/patanamon/academic-peer-review-in-software-engineering-venues
 
 - title: "Quality-Impacting Software Development Practices"
   venue: Mahidol University, Thailand
   year: 2019
-  slide: https://speakerdeck.com/patanamon/academic-peer-review-in-software-engineering-venues
+  slides: https://speakerdeck.com/patanamon/academic-peer-review-in-software-engineering-venues
 
 - title: "Using HPC Resources to Exploit Big Data for Code Review Analytics"
   year: 07 June 2017
