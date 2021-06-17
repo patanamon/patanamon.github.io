@@ -1,20 +1,40 @@
+- title: "Code Review at Speed: How can we use data to help developers do code review faster?"
+  venue: "Invited Mini-keynote at the International Conference on Mining Software Repositories (2021)"
+  year: 2021
+  slide: https://speakerdeck.com/patanamon/code-review-at-speed-how-can-we-use-data-to-help-developers-do-code-review-faster
+
+- title: "Introducing the MSR2021 Shadow PC program"
+  venue: "The International Conference on Mining Software Repositories (2021)"
+  year: 2021
+  slide: https://speakerdeck.com/patanamon/introducing-the-msr2021-shadow-pc-program
+
+- title: "Academic Peer Review in Software Engineering Venues"
+  venue: "Monash University, Australia"
+  year: 2020
+  slide: https://speakerdeck.com/patanamon/academic-peer-review-in-software-engineering-venues
+
+- title: "Quality-Impacting Software Development Practices"
+  venue: Mahidol University, Thailand
+  year: 2019
+  slide: https://speakerdeck.com/patanamon/academic-peer-review-in-software-engineering-venues
+
 - title: "Using HPC Resources to Exploit Big Data for Code Review Analytics"
-  date: 07 June 2017
+  year: 07 June 2017
   venue: "High Performance Computing Symposium (HPCS), Queen's University, Canada"
   venue_link: http://2017.hpcs.ca/
-  slides: https://www.slideshare.net/slideshow/embed_code/key/fSyBMTkOLAm3u8
+  slides: https://www.slideshare.net/patanamon/using-hpc-resources-to-exploit-big-data-for-code-review-analytics
   url: "/assets/publications/Thongtanunam_HPCS2017_using-HPC-Resources-to-Exploit-Big-Data-for-Code-Review-Analytics.pdf"
 
 - title: "Revisiting Code Ownership and Its Relationship with Software Quality in the Scope of Modern Code Review"
-  date: 08 September 2016
+  year: 08 September 2016
   venue_link: https://jssst2016.wordpress.com/
   venue: "Japan Society for Software Science and Technology (JSST), Tohoku University, Japan"
 
 - title: "Revisiting Code Ownership in the Scope of Modern Code Review"
-  date: 15 January 2016
+  year: 15 January 2016
   venue: "McGill University, Canada"
 
 - title: "Revisiting Code Ownership in the Scope of Modern Code Review"
-  date: 15 January 2016
+  year: 15 January 2016
   venue: "École Polytechnique de Montréal, Canada"
 

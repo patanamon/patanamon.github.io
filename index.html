@@ -98,7 +98,11 @@ layout: default
             <ul class="paper-list">
               {% for talk in site.data.talks %}
               <li> 
-                {{talk.title}}<br/>
+                {{talk.title}}
+                {% if talk.venue_link %}
+                 <a href="{{talk.slide}}">(Slide)</a> 
+                {% endif %}
+                <br/>
                 <label>Venue:</label> 
                 {% if talk.venue_link %}
                     <a href="{{talk.venue_link}}">{{talk.venue}}</a>
@@ -107,7 +111,7 @@ layout: default
                 {% endif %}
                 <br/>
 
-                <label>Date:</label> {{talk.date}}
+                
               </li> 
               {% endfor %}
             </ul>
