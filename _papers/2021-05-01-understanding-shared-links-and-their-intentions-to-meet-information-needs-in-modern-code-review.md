@@ -17,6 +17,9 @@ abstract: "Code reviews serve as a quality assurance activity for software teams
 	Title = {Understanding Shared Links and Their Intentions to Meet Information Needs in Modern Code Review},
 	Booktitle = {The Journal of Empirical Software Engineering (EMSE)},
 	Pages = {to appear},
+	doi = {https://doi.org/10.1007/s10664-021-09997-x},
+	volume = {26},
+    number = {96},
 	Year = {2021}
 }
 
